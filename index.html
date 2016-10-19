@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Appointment Booking</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Appoinment Booking</h1>
+
+<!-- Appointment Form -->
+      <form id="appt">
+        <h2>Create an Appointment</h2>
+        <div class="form-group">
+          <label for="name">Enter you name:</label>
+          <input id="name" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="date">Enter the date of your appointment:</label>
+          <input id="date" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="start">Enter the start time of the appointment:</label>
+          <input id="start" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="end">Enter the end time of the appointment:</label>
+          <input id="end" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Schedule your appointment!</button>
+      </form>
+
+      <div class="output-add"></div>
+    </div>
+  </body>
+</html>
